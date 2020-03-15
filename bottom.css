@@ -1,0 +1,57 @@
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: goldenrod;
+    padding: 20px 0px;
+
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 100%;
+    background-color: #dfd934;
+    box-shadow: 1px 4px 2px 2px gray;
+}
+.footer-social-icons ul li a{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 55px;
+    
+}
+.footer-social-icons ul li a i{
+    transition:  0.6s;
+           
+}
+.footer-social-icons ul li a:hover i{
+    transform: translate(0,-10px);
+}
+.footer-social-icons ul li .fa{
+    color: teal;
+}
+.footer-bottom{
+    background-color: rgb(104, 103, 103);
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+}
